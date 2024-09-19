@@ -1,0 +1,33 @@
+import react, { useState } from "react"
+
+function WordLetterCounter(){
+
+    const [text ,setText] = useState("")
+
+    wordCount = text.split(/\s+/).filter(Boolean).length
+    letterCount= text.length
+
+  const handleTextChange =(e) =>
+  {
+    setText(e.target.value)
+  }
+
+    return (
+        <div>
+            <textarea
+                placeholder="type something here...."
+                onChange={handle}
+                value ={text}
+                rows ={5}
+                columns ={50}
+            />
+            <p>
+                word count ={wordCount}
+            </p>
+            <p>
+                letter count ={letterCount}
+            </p>
+        </div>
+    )
+}
+export default WordLetterCounter
