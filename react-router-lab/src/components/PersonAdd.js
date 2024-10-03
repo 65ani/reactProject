@@ -36,6 +36,7 @@ const PersonAdd = ({ onPersonAdded = () => { } }) => {
   };
 
   const handleCloseNotification = () => {
+    const API_URL = process.env.REACT_APP_API_URL;
     setShowNotification(null);
   };
 

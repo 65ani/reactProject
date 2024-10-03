@@ -8,6 +8,7 @@ import Notification from './Notification';
 import '../styles/PersonDetail.css'; // Component-specific styles
 
 const API_URL = process.env.REACT_APP_API_URL;
+console.log(API_URL )
 
 const PersonDetail = () => {
   const { id } = useParams();
