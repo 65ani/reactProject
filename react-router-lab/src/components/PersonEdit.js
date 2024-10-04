@@ -12,6 +12,14 @@ const PersonEdit = () => {
 
 }
 export default PersonEdit;
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> e25852f52b5000c9db79b7b63c85afa7636f9520
 // // src/components/PersonEdit.js
 
 // import React, { useState, useEffect } from 'react';

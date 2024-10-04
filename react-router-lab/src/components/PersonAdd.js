@@ -14,6 +14,12 @@ export default PersonAdd;
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> e25852f52b5000c9db79b7b63c85afa7636f9520
 // import React, { useState } from 'react';
 // import axios from 'axios';
 // import { useNavigate } from 'react-router-dom';
