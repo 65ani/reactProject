@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> e25852f52b5000c9db79b7b63c85afa7636f9520
 import React from 'react'
 
 const NotFound = () => {
@@ -14,15 +11,7 @@ const NotFound = () => {
     );
   };
   
-<<<<<<< HEAD
-  export default NotFound;// import React from 'react';
-=======
-  export default NotFound;
 
-
-
-// import React from 'react';
->>>>>>> e25852f52b5000c9db79b7b63c85afa7636f9520
 
 // const NotFound = () => {
 //   const API_URL = process.env.REACT_APP_API_URL;

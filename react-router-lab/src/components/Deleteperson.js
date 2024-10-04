@@ -12,11 +12,8 @@ return (
 
   export default DeletePerson;
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e25
 // import React from 'react';
 
 // const DeletePerson = ({ id, onDelete }) => {
